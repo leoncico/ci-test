@@ -19,4 +19,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io  # O la URL de tu servidor SonarQube
           SONAR_PROJECT_KEY: leoncico_ci-test  # La clave de tu proyecto SonarQube
-          SONAR_ORGANIZATION: leoncico  # Solo si usas SonarCloud
+          SONAR_ORGANIZATION: leoncico
